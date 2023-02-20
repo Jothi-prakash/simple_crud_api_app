@@ -1,6 +1,5 @@
 # simple_crud_api_app
-
-A new Flutter project.
+A Simple CRUD Api  app
 
 ## Getting Started
 
