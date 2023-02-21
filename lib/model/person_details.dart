@@ -22,8 +22,7 @@ class Persondetails
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = <String, dynamic>{};
     data['name'] = name;
-    data['age'] = age;
-    data['_id']=id;
+    data['age'] = age;    
     return data;
   }
 }
