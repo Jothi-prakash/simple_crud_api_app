@@ -78,7 +78,7 @@ class _HomepageState extends State<Homepage> {
 
 // this function defines ontap to show a edit dialogue box then on double tapthat time shows a delete option  
 List<Widget> getPersonWidgets(List<Persondetails> persons) {
-        persons.map((e) => 
+       return  persons.map((e) => 
         GestureDetector(
         onLongPress: () async {
           var canDelete = await showDeleteOption();
@@ -96,7 +96,7 @@ List<Widget> getPersonWidgets(List<Persondetails> persons) {
         },
         child: PersonWidget(person: e),
       )).toList();
-       return <Widget>[]; 
+       
     }
   
 
